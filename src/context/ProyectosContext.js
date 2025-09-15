@@ -7,7 +7,7 @@ export const proyectos = [
     aprendizajes:
       "React Hooks, Context API, Firebase, consumo de APIs, autenticación, React Router y diseño responsive.",
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
-    imagenDescription: "public/ReactE_Commerce.png",
+    imagenDescription: "https://drive.google.com/file/d/1rib1rCjCNYnesHzt3owg-N52FWhR8ygx/view?usp=sharing",
     github: "https://github.com/Ariel3748/react/tree/main/preEntrega",
     deploy: "https://ecommerce-demo.com",
     tecnologias: ["javascript", "react", "bootstrap", "firebase"],
