@@ -40,7 +40,7 @@ export function Contacto() {
             <Button
               className="w-100 d-flex flex-column align-items-center justify-content-center"
               as="a"
-              href="src/assets/resume/Cv_pasantia.docx.pdf"
+              href="https://drive.google.com/file/d/1migq3UTtZVoG8q24ZxWl_g0aJimgfjxt/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -20,7 +20,7 @@ export function CardProyectFull() {
         // Wollok no existe → usamos imagen personalizada
     wollok: (
       <img
-        src="../src/assets/icons/Wollok_Icon.png"
+        src="public/Wollok_Icon.png"
         alt="Wollok"
         style={{ width: "40px", height: "40px" }}
       />
