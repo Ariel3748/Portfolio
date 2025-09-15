@@ -7,7 +7,7 @@ export const proyectos = [
     aprendizajes:
       "React Hooks, Context API, Firebase, consumo de APIs, autenticación, React Router y diseño responsive.",
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
-    imagenDescription: "https://drive.google.com/file/d/1rib1rCjCNYnesHzt3owg-N52FWhR8ygx/view?usp=sharing",
+    imagenDescription: "ReactE_Commerce.png",
     github: "https://github.com/Ariel3748/react/tree/main/preEntrega",
     deploy: "https://ecommerce-demo.com",
     tecnologias: ["javascript", "react", "bootstrap", "firebase"],
@@ -20,7 +20,7 @@ export const proyectos = [
     aprendizajes:
       "Programación orientada a objetos, diseño de juegos, trabajo en equipo, manejo de Git y control de versiones.",
     imagen: "https://cdn-icons-png.flaticon.com/512/7786/7786362.png" ,
-    imagenDescription: "public/logoGame.png",
+    imagenDescription: "logoGame.png",
     github: "https://github.com/Ariel3748/Wollok-Game",
     deploy: "",
     tecnologias: ["wollok","git"
@@ -48,7 +48,7 @@ export const proyectos = [
     aprendizajes:
       "Eventos en JavaScript, lógica de juegos simples y diseño con HTML/CSS.",
     imagen: "https://cdn-icons-png.flaticon.com/512/7786/7786362.png",
-    imagenDescription: "public/JSGame.png",
+    imagenDescription: "JSGame.png",
     github: "https://github.com/Ariel3748/HistoriaWeb",
     deploy: "https://juego-js-demo.com",
     tecnologias: ["html","javascript","css"],
