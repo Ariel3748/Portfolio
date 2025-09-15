@@ -1,4 +1,7 @@
 import { Button } from "react-bootstrap";
+import { FaGitAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { IoNewspaper } from "react-icons/io5";
 
 export function Contacto() {
   return (
@@ -15,11 +18,7 @@ export function Contacto() {
               target="_blank"
               href="https://www.linkedin.com/in/ariel-agus-oliva"
             >
-              <img
-                src="../src/assets/icons/LinkedInLogo.webp"
-                alt="LinkedIn"
-                style={{ width: "65px", height: "65px", padding: "3px" }}
-              />
+              <FaLinkedin size={65} color="#000000ff" />
               LinkedIn
             </Button>
           </div>
@@ -32,11 +31,7 @@ export function Contacto() {
               target="_blank"
               href="https://github.com/Ariel3748"
             >
-              <img
-                src="../src/assets/icons/GithubIcon.png"
-                alt="Github"
-                style={{ width: "65px", height: "65px", padding: "3px" }}
-              />
+              <FaGithub size={65} color="#000000ff" />
               Github
             </Button>
           </div>
@@ -45,15 +40,11 @@ export function Contacto() {
             <Button
               className="w-100 d-flex flex-column align-items-center justify-content-center"
               as="a"
-              href="../src/assets/resume/Cv_pasantia.docx.pdf"
+              href="src/assets/resume/Cv_pasantia.docx.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="../src/assets/icons/ResumeIcon.png"
-                alt="C.V"
-                style={{ width: "65px", height: "65px", padding: "3px" }}
-              />
+              <IoNewspaper size={65} color="#000000ff" />
               C.V
             </Button>
           </div>
@@ -66,11 +57,7 @@ export function Contacto() {
               href="mailto:ariel.oliva3748@gmail.com"
               className="w-100 d-flex flex-column align-items-center justify-content-center"
             >
-              <img
-                src="../src/assets/icons/MailIcon.png"
-                alt="Mail"
-                style={{ width: "65px", height: "65px", padding: "3px" }}
-              />
+              <IoMdMail size={65} color="#000000ff" />
               Mail
             </Button>
           </div>

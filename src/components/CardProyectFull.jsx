@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { proyectos } from "../context/ProyectosContext";
-import { FaReact, FaBootstrap, FaJs, FaCode, FaGitAlt, FaCss3, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { FaReact, FaBootstrap, FaJs, FaCode, FaGitAlt, FaCss3, FaCss3Alt, FaHtml5, FaGithub } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
 
 export function CardProyectFull() {
@@ -69,11 +69,7 @@ export function CardProyectFull() {
           {/* Botones */}
           <div className="d-flex gap-3">
             <a href={proyecto.github} target="_blank" rel="noopener noreferrer">
-              <img
-                src="../src/assets/icons/GithubIcon.png"
-                alt="GitHub"
-                style={{ width: "65px", height: "65px" }}
-              />
+              <FaGithub size={65} color="#6e5494" />
             </a>
             <Button
               variant="success"

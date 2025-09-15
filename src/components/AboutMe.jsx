@@ -9,24 +9,32 @@ function AboutMe() {
       <div className="container my-5 pt-5" id="about_me">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h1 className="p-2 ms-5" style={{ color: "#0d6efd" }}>Ariel Oliva</h1>
-            <h2 className="p-2 fw-semibold text-muted">Estudiante de Lic. en Informatica</h2>
+            <h1 className="p-2 ms-5" style={{ color: "#0d6efd" }}>
+              Ariel Oliva
+            </h1>
+            <h2 className="p-2 fw-semibold text-muted">
+              Estudiante de Lic. en Informatica
+            </h2>
             <hr className="w-100 mx-auto mb-4" />
-            <p className="p-2 about-text mx-auto">
+            <p className=" about-text mx-auto">
               Soy estudiante de la carrera de Licenciatura en Informática en la
               Universidad Nacional de Hurlingham. Tengo formación en desarrollo
               web, con experiencia en proyectos académicos y personales en
               JavaScript, React, Python y Java, además de bases sólidas en
-              programación orientada a objetos y resolución de problemas. Me
-              considero una persona creativa, disciplinada y con gran curiosidad
-              intelectual. Disfruto aprender constantemente, trabajar en equipo
-              y aportar ideas que enriquezcan los proyectos. Me motiva enfrentar
-              desafíos, mantener una actitud de mejora continua y compartir
-              conocimientos con quienes me rodean. Estoy en búsqueda de nuevos
-              desafíos en el mundo del desarrollo de software que me permitan
-              aplicar y expandir mis conocimientos. Aspiro a especializarme en
-              back-end y ciberseguridad, contribuyendo con soluciones
-              tecnológicas que tengan impacto real.
+              programación orientada a objetos y resolución de problemas.
+            </p>
+            <p className=" about-text mx-auto">
+              Me considero una persona creativa, disciplinada y con gran
+              curiosidad intelectual. Disfruto aprender constantemente, trabajar
+              en equipo y aportar ideas que enriquezcan los proyectos.
+            </p>
+            <p className=" about-text mx-auto">
+              Me motiva enfrentar desafíos, mantener una actitud de mejora
+              continua y compartir conocimientos con quienes me rodean. Estoy en
+              búsqueda de nuevos desafíos en el mundo del desarrollo de software
+              que me permitan aplicar y expandir mis conocimientos. Aspiro a
+              especializarme en back-end y ciberseguridad, contribuyendo con
+              soluciones tecnológicas que tengan impacto real.
             </p>
           </div>
 

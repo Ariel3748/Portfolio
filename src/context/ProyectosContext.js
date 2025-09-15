@@ -7,7 +7,7 @@ export const proyectos = [
     aprendizajes:
       "React Hooks, Context API, Firebase, consumo de APIs, autenticación, React Router y diseño responsive.",
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
-    imagenDescription: "../src/assets/previews/ReactE_Commerce.png",
+    imagenDescription: "src/assets/previews/ReactE_Commerce.png",
     github: "https://github.com/Ariel3748/react/tree/main/preEntrega",
     deploy: "https://ecommerce-demo.com",
     tecnologias: ["javascript", "react", "bootstrap", "firebase"],
@@ -19,8 +19,8 @@ export const proyectos = [
       "Videojuego desarrollado en Wollok Games como proyecto académico. Incluyó diseño de sprites, lógica de juego y programación orientada a objetos. Trabajo realizado en equipo utilizando Git y ramas para la colaboración.",
     aprendizajes:
       "Programación orientada a objetos, diseño de juegos, trabajo en equipo, manejo de Git y control de versiones.",
-    imagen: "../src/assets/icons/Juego_Icon.png",
-    imagenDescription: "../src/assets/icons/logoGame.png",
+    imagen: "https://i.pinimgproxy.com/?url=aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS8yNTYvNjg2LzY4NjU4OS5wbmc=&ts=1757907581&sig=b8f5cf5303def9eb61ef34e1f220cec0ce0cbfdc8db481dd18dd3772b5cf77f9",
+    imagenDescription: "src/assets/icons/logoGame.png",
     github: "https://github.com/Ariel3748/Wollok-Game",
     deploy: "",
     tecnologias: ["wollok","git"
@@ -34,7 +34,7 @@ export const proyectos = [
     aprendizajes:
       "Local Storage, HTML, CSS y JavaScript aplicado a e-commerce.",
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
-    imagenDescription: "../src/assets/previews/JSE_Commerce.png",
+    imagenDescription: "src/assets/previews/JSE_Commerce.png",
     github: "https://github.com/Ariel3748/Talento-Tech-Front-End-JS",
     deploy: "https://ecommerce-js-demo.com",
     tecnologias: ["html","javascript","css"
@@ -47,8 +47,8 @@ export const proyectos = [
       "Juego interactivo realizado con HTML, CSS y JavaScript puro para la facultad. Se trabajó principalmente con manejo de eventos y lógica de interacción del usuario.",
     aprendizajes:
       "Eventos en JavaScript, lógica de juegos simples y diseño con HTML/CSS.",
-    imagen: "../src/assets/icons/Juego_Icon.png",
-    imagenDescription: "../src/assets/previews/JSGame.png",
+    imagen: "https://i.pinimgproxy.com/?url=aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS8yNTYvNjg2LzY4NjU4OS5wbmc=&ts=1757907581&sig=b8f5cf5303def9eb61ef34e1f220cec0ce0cbfdc8db481dd18dd3772b5cf77f9",
+    imagenDescription: "src/assets/previews/JSGame.png",
     github: "https://github.com/Ariel3748/HistoriaWeb",
     deploy: "https://juego-js-demo.com",
     tecnologias: ["html","javascript","css"],
