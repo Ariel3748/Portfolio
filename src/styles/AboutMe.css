@@ -1,0 +1,11 @@
+.about-text {
+  max-width: 750px;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+}
