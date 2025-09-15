@@ -40,11 +40,6 @@ Soy estudiante de Licenciatura en Informática y desarrollador web en formación
 
 ---
 
-## 🔹 Contacto
-- LinkedIn: [Ariel Agustín](https://www.linkedin.com/in/ariel3748)  
-- Email: tuemail@ejemplo.com  
-
----
 
 ### 🔹 Nota
 Este portfolio se actualizará continuamente con nuevos proyectos y experiencias. ¡Gracias por visitarlo! 🚀
