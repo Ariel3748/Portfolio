@@ -9,7 +9,7 @@ function BarraNav() {
  <Navbar expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
         {/* Logo o nombre */}
-        <Navbar.Brand href="/">Mi Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/Portfolio">Mi Portfolio</Navbar.Brand>
 
         {/* Botón hamburguesa */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

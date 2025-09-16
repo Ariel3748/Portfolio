@@ -9,7 +9,7 @@ export const proyectos = [
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
     imagenDescription: "ReactE_Commerce.png",
     github: "https://github.com/Ariel3748/react/tree/main/preEntrega",
-    deploy: "https://ecommerce-demo.com",
+    deploy: "https://soft-douhua-c591f1.netlify.app",
     tecnologias: ["javascript", "react", "bootstrap", "firebase"],
   },
   {
@@ -22,7 +22,7 @@ export const proyectos = [
     imagen: "https://cdn-icons-png.flaticon.com/512/7786/7786362.png" ,
     imagenDescription: "logoGame.png",
     github: "https://github.com/Ariel3748/Wollok-Game",
-    deploy: "",
+    deploy: "https://github.com/Ariel3748/Wollok-Game",
     tecnologias: ["wollok","git"
       ],
   },
@@ -36,7 +36,7 @@ export const proyectos = [
     imagen: "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
     imagenDescription: "JSE_Commerce.png",
     github: "https://github.com/Ariel3748/Talento-Tech-Front-End-JS",
-    deploy: "https://ecommerce-js-demo.com",
+    deploy: "https://majestic-heliotrope-5bf861.netlify.app",
     tecnologias: ["html","javascript","css"
     ],
   },
@@ -50,7 +50,7 @@ export const proyectos = [
     imagen: "https://cdn-icons-png.flaticon.com/512/7786/7786362.png",
     imagenDescription: "JSGame.png",
     github: "https://github.com/Ariel3748/HistoriaWeb",
-    deploy: "https://juego-js-demo.com",
+    deploy: "https://jazzy-bonbon-dca626.netlify.app",
     tecnologias: ["html","javascript","css"],
   },
   {
@@ -61,9 +61,9 @@ export const proyectos = [
     aprendizajes:
       "React, React-Bootstrap, diseño responsive y organización de componentes.",
     imagen: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-    imagenDescription: "",
-    github: "https://github.com/tuusuario/portfolio",
-    deploy: "https://mi-portfolio.com",
+    imagenDescription: "PorfolioImage.png",
+    github: "https://github.com/Ariel3748/Portfolio",
+    deploy: "https://ariel3748.github.io/Portfolio",
     tecnologias: ["react","boostrap","javascript"],
   },
 ];
