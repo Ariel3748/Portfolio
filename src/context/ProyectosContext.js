@@ -64,6 +64,6 @@ export const proyectos = [
     imagenDescription: "PorfolioImage.png",
     github: "https://github.com/Ariel3748/Portfolio",
     deploy: "https://ariel3748.github.io/Portfolio",
-    tecnologias: ["react","boostrap","javascript"],
+    tecnologias: ["react","bootstrap","javascript"],
   },
 ];
