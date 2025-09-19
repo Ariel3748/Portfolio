@@ -52,7 +52,7 @@ export function CardProyectFull() {
           <p className="text-muted">{proyecto.descripcion}</p>
 
           <div className="mb-3">
-            <strong>Cosas aprendidas:</strong>
+            <strong>Fortalezas desarrolladas:</strong>
             <p>{proyecto.aprendizajes}</p>
           </div>
 
