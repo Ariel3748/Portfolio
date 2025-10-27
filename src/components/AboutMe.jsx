@@ -41,7 +41,7 @@ function AboutMe() {
           {/* Imagen */}
           <div className="col-md-6 text-center">
             <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQGNdWrrg9kiaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711133867143?e=1760572800&v=beta&t=gOB2JQfLauLTvr9oVlIo1Su-0vCXrsO4K-rYr3fkymo"
+              src="profilePic.jpeg"
               alt="Ariel Oliva"
               className="img-fluid rounded-circle shadow"
               style={{ maxWidth: "250px" }}
