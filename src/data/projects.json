@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bookTracker",
+    "title": "BookTracker frontend",
+    "shortDescription": "Aplicacion web para llevar registro de libros.",
+    "description": "BookTracker es una aplicación web diseñada para amantes de la lectura que buscan llevar un registro detallado y estético de su biblioteca personal. Este proyecto nació de la necesidad de practicar el flujo completo de una aplicación CRUD (Create, Read, Update, Delete) y la integración con una API mediante métodos HTTP, consolidando mis conocimientos en el ecosistema de React.",
+    "technologies": ["React", "Tailwind", "JavaScript"],
+    "images": [
+      "https://drive.google.com/file/d/1yjftFqjZ8apmmamxtdjdzFwwBEQMcOwZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1-rIOVKiV3IfJL9kEjgqrZCuZQhZSKmT3/view?usp=sharing",
+      "https://drive.google.com/file/d/1vqw4JVFcbx3D__Op3tRHxMMYTKF3SMLm/view?usp=sharing",
+      "https://drive.google.com/file/d/1m4FgaeJC_nOjBhuJGnMJgn12ECqw4m2F/view?usp=drive_link",
+      "https://drive.google.com/file/d/1tJBwz8qzHY7Hs1FUlzioI-wU---KWLY_/view?usp=drive_link"
+    ],
+    "demoUrl": "https://github.com/Ariel3748/BookTracker_",
+    "repoUrl": "https://github.com/Ariel3748/BookTracker_"
+  },
+  {
+    "id": "bookTracker-backend",
+    "title": "BookTracker backend",
+    "shortDescription": "API REST para BookTracker, una aplicación para registrar y gestionar tu colección de libros personal",
+    "description": "API REST para BookTracker, una aplicación para registrar y gestionar tu colección de libros personal. Permite llevar un seguimiento de los libros leídos, en lectura o pendientes, con calificaciones y comentarios, asociados a la cuenta de cada usuario.",
+    "technologies": ["Node.js", "Express", "Sequalize", "MySQL", "JWT"],
+    "images": [
+      "https://drive.google.com/file/d/1gTfhrAHPisQybTpJwLjJoUQtQFMH-Xtf/view?usp=sharing",
+      "https://drive.google.com/file/d/1XKJ9NYHqmFl3umDvptLksF7ifPQBGXOe/view?usp=sharing",
+      "https://drive.google.com/file/d/1OMCOhCcdAGSrXkPlg_DPLNaawuw2fY8h/view?usp=sharing"
+    ],
+    "demoUrl": "https://github.com/Ariel3748/BookTracker_backend",
+    "repoUrl": "https://github.com/Ariel3748/BookTracker_backend"
+  },
+  {
+    "id": "e-commerce-react",
+    "title": "E-commerce en React",
+    "shortDescription": "E-commerce con carrito de compras, checkout y panel de administración.",
+    "description": "Aplicación web de tienda online conectada a una API externa, con carrito de compras, filtros dinámicos y diseño responsive. Incluye autenticación de usuarios y rutas protegidas, simulando una experiencia real de e-commerce.",
+    "technologies": ["React", "Bootsrap", "JavaScript", "FireBase"],
+    "images": [
+      "https://drive.google.com/file/d/1lgmd6tRtnOwFfgvPoFtEIqFy1DHEElCc/view?usp=sharing",
+      "https://drive.google.com/file/d/12dJg4ogn29TatDRhlfthFu2Ra7yXEl0a/view?usp=sharing",
+      "https://drive.google.com/file/d/1Dm6RM7YLYVxvi-z2jyIFVH7gy5EE_I66/view?usp=sharing",
+      "https://drive.google.com/file/d/1XwyfgzFT79XyyndNUCEzQOwgcdJrAYsc/view?usp=sharing"
+    ],
+    "demoUrl": "https://soft-douhua-c591f1.netlify.app",
+    "repoUrl": "https://github.com/Ariel3748/react/tree/main/preEntrega"
+  },
+  {
+    "id": "juego-wollok",
+    "title": "Juego en Wollok",
+    "shortDescription": "Videojuego desarrollado en Wollok Games como proyecto académico.",
+    "description": "Videojuego desarrollado en Wollok Games como proyecto académico. Incluyó diseño de sprites, lógica de juego y programación orientada a objetos. Trabajo realizado en equipo utilizando Git y ramas para la colaboración.",
+    "technologies": ["Wollok", "Git", "POO"],
+    "images": [
+      "https://drive.google.com/file/d/1DrsQ4q9EBQNUeC_4dAHvEsdsvt5Kng7T/view?usp=sharing",
+      "https://drive.google.com/file/d/1mkhsqweXeRjfMKdWlkzk51ssocf66qIn/view?usp=sharing",
+      "https://drive.google.com/file/d/1cGRFbBUHUoDMhgPB6vDwsWLEGMdNUo_U/view?usp=sharing",
+      "https://drive.google.com/file/d/12Y5x1Bj2JqhuygxRXBZ35mk3PuKV5dJM/view?usp=sharing"
+    ],
+    "demoUrl": "https://github.com/Ariel3748/Wollok-Game",
+    "repoUrl": "https://github.com/Ariel3748/Wollok-Game"
+  }
+]
