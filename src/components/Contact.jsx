@@ -1,3 +1,4 @@
+import { EnvelopeFill, GeoAltFill, Github, Link45deg, Linkedin } from "react-bootstrap-icons";
 import Icon from "./Icon";
 
 export default function Contact({ profile }) {
@@ -6,25 +7,25 @@ export default function Contact({ profile }) {
       label: "Email",
       value: profile.email,
       href: `mailto:${profile.email}`,
-      icon: "envelope-fill",
+      icon: <EnvelopeFill/>,
     },
     profile.github && {
       label: "GitHub",
       value: profile.github.replace(/^https?:\/\//, ""),
       href: profile.github,
-      icon: "github",
+      icon: <Github/>,
     },
     profile.linkedin && {
       label: "LinkedIn",
       value: profile.linkedin.replace(/^https?:\/\//, ""),
       href: profile.linkedin,
-      icon: "linkedin",
+      icon: <Linkedin/>
     },
     profile.location && {
       label: "Ubicación",
       value: profile.location,
       href: null,
-      icon: "geo-alt-fill",
+      icon: <GeoAltFill/>,
     },
   ].filter(Boolean);
 
@@ -39,7 +40,7 @@ export default function Contact({ profile }) {
             const content = (
               <>
                 <span className="contact-card-icon">
-                  <Icon name={item.icon} />
+                  {item.icon}
                 </span>
                 <span>
                   <p className="contact-card-label">{item.label}</p>

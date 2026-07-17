@@ -1,3 +1,4 @@
+import { ArrowRight, FileEarmarkPdfFill } from "react-bootstrap-icons";
 import Icon from "./Icon";
 
 export default function About({ profile }) {
@@ -16,11 +17,11 @@ export default function About({ profile }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon name="file-earmark-pdf-fill" />
+            <FileEarmarkPdfFill size={16}/>
             Ver CV
           </a>
           <a className="btn" href="#contact">
-            <Icon name="arrow-right" />
+            <ArrowRight/>
             Contactarme
           </a>
         </div>

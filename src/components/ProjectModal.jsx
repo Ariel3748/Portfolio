@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Icon from "./Icon";
 import { getDriveImageUrl } from "../utils/driveImage";
+import { BoxArrowUpRight, ChevronLeft, ChevronRight, Github, XLg } from "react-bootstrap-icons";
 
 export default function ProjectModal({ project, onClose }) {
   const [imageIndex, setImageIndex] = useState(0);
@@ -62,7 +63,7 @@ export default function ProjectModal({ project, onClose }) {
             ref={closeBtnRef}
             aria-label="Cerrar"
           >
-            <Icon name="x-lg" />
+            <XLg />
           </button>
         </div>
 
@@ -82,7 +83,7 @@ export default function ProjectModal({ project, onClose }) {
                     onClick={goPrev}
                     aria-label="Imagen anterior"
                   >
-                    <Icon name="chevron-left" />
+                    <ChevronLeft />
                   </button>
                   <button
                     type="button"
@@ -90,7 +91,7 @@ export default function ProjectModal({ project, onClose }) {
                     onClick={goNext}
                     aria-label="Imagen siguiente"
                   >
-                    <Icon name="chevron-right" />
+                    <ChevronRight />
                   </button>
                   <div className="modal-gallery-dots">
                     {images.map((img, idx) => (
@@ -120,7 +121,7 @@ export default function ProjectModal({ project, onClose }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon name="box-arrow-up-right" />
+                <BoxArrowUpRight/>
                 Ver desplegado
               </a>
             )}
@@ -131,7 +132,7 @@ export default function ProjectModal({ project, onClose }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon name="github" />
+                <Github/>
                 Ver repositorio
               </a>
             )}

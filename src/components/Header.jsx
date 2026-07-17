@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import { useTheme } from "../context/ThemeContext";
+import { BrightnessHigh, Moon } from "react-bootstrap-icons";
 
 export default function Header({ name }) {
   const { theme, toggleTheme } = useTheme();
@@ -27,7 +28,9 @@ export default function Header({ name }) {
             onClick={toggleTheme}
             aria-label={theme === "dark" ? "Activar modo claro" : "Activar modo oscuro"}
           >
-            <Icon name={theme === "dark" ? "sun-fill" : "moon-stars-fill"} />
+            {theme === "dark" ? <BrightnessHigh size={16}/> : <Moon size={16}/>}
+
+            {/*<Icon name={theme === "dark" ? "sun-fill" : "moon-stars-fill"} />*/}
           </button>
         </div>
       </div>
